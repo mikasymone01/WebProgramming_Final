@@ -1,0 +1,95 @@
+body {
+  margin: 5px;
+  padding: 0;
+  width: 100%;
+}
+.body_background_col1 {
+  background-color: #00ffff80;
+}
+.body_background_col2 {
+  background-color: #00c58321;
+}
+hr {
+  border: 1px solid white;
+}
+
+h1 {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.card_container {
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.flash_card {
+  width: 1fr;
+  height: 250px;
+  background-color: red;
+  display: inline-block;
+  padding: 10px;
+  padding-top: 15px;
+}
+.card_controller {
+  width: 1fr;
+  height: 250px;
+  background-color: #00ffff80;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.card_img {
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+#card_search {
+  position: relative;
+  bottom: 20%;
+  border-radius: 10px;
+  background-color: rgb(158, 182, 202);
+  height: 80px;
+  width: 250px;
+  font-size: 20px;
+  outline: none;
+}
+.card_text {
+  width: 97%;
+  height: 70%;
+  margin: 0;
+  padding: 5px;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+}
+.card_tag_box {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 97%;
+  height: 10px;
+  outline: none;
+  padding: 5px;
+}
+.color_picker {
+  position: relative;
+  display: inline-block;
+  bottom: 27%;
+  left: 65%;
+  width: 70px;
+  height: 40px;
+}
+.card_checkbox {
+  position: relative;
+  display: inline-block;
+  bottom: 25%;
+  left: 73%;
+  height: 40px;
+  width: 40px;
+}

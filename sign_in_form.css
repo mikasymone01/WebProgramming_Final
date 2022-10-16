@@ -1,0 +1,85 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+#sign-in {
+  font-size: 70px;
+  font-weight: bold;
+  padding-left: 150px;
+  margin: 0px;
+}
+#email,
+#pwd {
+  font-size: 40px;
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: #ced4da;
+  height: auto;
+  width: 700px;
+  padding: 10px;
+  margin: 20px;
+}
+#remember {
+  margin: 10px;
+  margin-left: 250px;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 1000px;
+  width: auto;
+  align-items: center;
+  font-size: 30px;
+}
+
+#submit {
+  height: 60px;
+  width: 700px;
+  margin: 25px;
+  border-radius: 40px;
+  font-size: 30px;
+  border: 1px solid transparent;
+  background-color: #0d6efd;
+}
+#submit:hover {
+  box-shadow: 1px 1px 3px 3px rgba(152, 199, 253, 0.705);
+}
+.menu {
+  position: relative;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  background: linear-gradient(to right, #659999 0%, #f4791f 100%);
+  border: solid transparent;
+  border-top: 0;
+}
+.menu-button {
+  width: 200px;
+  height: 40px;
+  background-color: rgba(47, 182, 175, 0);
+  border: solid transparent;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.menu-button:hover {
+  border: solid transparent;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: aliceblue;
+}

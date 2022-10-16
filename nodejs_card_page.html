@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="card_page.css" />
+
+    <title>Nodejs Cards</title>
+  </head>
+  <body class="body_background_col2">
+    <h1 id="title">Nodejs FLASHCARDS</h1>
+    <hr />
+    <div class="card_container" id="container">
+      <div class="card_controller" id="controller">
+        <img class="card_img" src="img/add.png" onclick="addFlashCard()" />
+        <img class="card_img" src="img/save.png" onclick="saveCards()" />
+        <img class="card_img" src="img/delete.png" onclick="deleteCards()" />
+        <img class="card_img" src="img/search.png" onclick="searchTags()" />
+        <input id="card_search" type="text" />
+      </div>
+    </div>
+    <script src="flash_cards.js"></script>
+  </body>
+</html>

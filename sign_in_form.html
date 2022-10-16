@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sign_in_form.css" />
+    <title>Sign In Form</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="menu-button">
+        <a href="index.html">HOME </a>
+      </div>
+      <div class="menu-button">
+        <a href="sign_up_form.html"> SIGN UP </a>
+      </div>
+    </div>
+    <div class="flex-container">
+      <form name="login" onsubmit="loginUser(event)">
+        <label id="sign-in">Please Sign In</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email address"
+          size="50"
+        /><br />
+        <input
+          type="password"
+          name="pwd"
+          id="pwd"
+          placeholder="Password"
+        /><br />
+        <button type="submit" id="submit" formaction="index.html">Login</button>
+      </form>
+    </div>
+    <script src="webpage_script.js"></script>
+  </body>
+</html>
